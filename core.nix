@@ -28,7 +28,8 @@
     elixir
     udiskie
     lynx
-    gitMinimal
+    git
+    git-radar
     xorg.xmodmap
     bzip2
     gzip
