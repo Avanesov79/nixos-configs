@@ -58,12 +58,13 @@
     paper-gtk-theme
     ## Wallpapers
     plasma-workspace-wallpapers         # Wallpaper pack
+    nixos-artwork
     ## Cursor themes
     xorg.xcursorthemes                  # cursor theme
     ## Icon Themes
     arc-icon-theme                      # Icon theme
     kdeFrameworks.oxygen-icons5         # Icon theme
-    hicolor-icon-theme                  # Icon theme
+    hicolor_icon_theme                  # Icon theme
     moka-icon-theme                     # Icon theme
     xfce.xfce4icontheme                 # Icon Theme
     elementary-icon-theme               # Icon theme
