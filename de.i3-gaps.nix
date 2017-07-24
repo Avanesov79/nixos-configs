@@ -29,7 +29,6 @@
 ##### System Utilities #####
     i3lock                              # Screen lock program
     i3blocks-gaps                       # i3 wm with gaps support
-    #i3status                           # Status info for i3-bar (using i3blocks instead)
     compton                             # Compositor for use with i3
     rofi                                # Program runner/launcher
     rofi-menugen                        # Menu generator for rofi
@@ -37,10 +36,11 @@
     lxqt.pcmanfm-qt                     # qt based file manager
     pavucontrol                         # Volume control for pulse audio
     networkmanager                      # network manager- use nmtui for ncurses interface
-    pulseaudioFull                      # Pulse audio sound server
+#    pulseaudioFull                      # Pulse audio sound server
     playerctl                           # Allows binding keys to commands for media player control
     arandr                              # GUI frontend to xrandr for multi-monitor configuration
     lxappearance                        # theme configuration for gtk2 and gtk3 window decoration
+    qt5ct                               # Theme configuration for qt based applications
 ##### Icons, Themes, and Wallpapers #####
     ## Fonts
     dejavu_fonts
