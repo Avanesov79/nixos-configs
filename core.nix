@@ -34,6 +34,10 @@
     lynx                                             # Ncurses web browser
     git                                              # Version control for software sources
     git-radar                                        # HUD for git on the command line
+    ## Filesystem support ##
+    exfat
+    ntfs3g
+    zfs
   ];
 
   ##### List services that you want to enable:
