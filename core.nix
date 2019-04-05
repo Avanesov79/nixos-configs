@@ -27,9 +27,9 @@
     # Archiving utilities
     bzip2 gzip lzip p7zip unzip lzma zip unzip unar
     # System utilities
-    wget openssh curl rsync mtr pciutils udiskie xdg-user-dirs
+    wget openssh curl rsync mtr pciutils udiskie
     # System user utilities
-    neovim nano ranger atool htop lynx git tree
+    neovim nano ranger atool htop lynx git tree home-manager
     # Scripting and programming
     perl python elixir erlang
     # Filesystem support
@@ -41,17 +41,6 @@
     XDG_CONFIG_HOME = "$HOME/.config";
     XDG_CACHE_HOME = "$HOME/.cache";
     XDG_DATA_HOME = "$HOME/.local/share";
-    ## Set user xdg variables
-    XDG_DESKTOP_DIR = "$HOME/Desktop";
-    XDG_DOCUMENTS_DIR = "$HOME/Documents";
-    XDG_DOWNLOAD_DIR = "$HOME/Downloads";
-    XDG_MUSIC_DIR = "$HOME/Music";
-    XDG_PICTURES_DIR = "$HOME/Pictures";
-    XDG_PUBLICSHARE_DIR = "$HOME/Public";
-    XDG_TEMPLATES_DIR = "$HOME/Templates";
-    XDG_VIDEOS_DIR = "$HOME/Videos";
-    ## Set some custom variables
-    HISTFILE = "$XDG_DATA_HOME/shell/histfile";
 };
 
   # Some programs need SUID wrappers, can be configured further or are
