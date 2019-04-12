@@ -12,7 +12,11 @@
   networking.hostName = "mac-desk"; # Define your hostname.
 
   # Enable the X11 windowing system.
-  services.xserver.videoDrivers = [ "nvidia" ];
+  services.xserver.videoDrivers = [ "nvidiaBeta" ];
+
+environment.systemPackages = with pkgs; [
+    vulkan-loader
+  ];
 
   # Enable touchpad support.
   # services.xserver.libinput.enable = true;

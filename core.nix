@@ -29,7 +29,7 @@
     # System utilities
     wget openssh curl rsync mtr pciutils udiskie
     # System user utilities
-    neovim nano ranger atool htop lynx git tree home-manager
+    neovim nano ranger atool htop lynx git tree
     # Scripting and programming
     perl python elixir erlang
     # Filesystem support
@@ -57,11 +57,11 @@
       fi
     '';
     loginShellInit = ''
-    ## Source users .profile file if it exists. This setup moves to/uses the
+    ## Source users profile.sh file if it exists. This setup moves to/uses the
     ##   XDG base directories. Added the ".sh" to the end to indicate POSIX
     ##   compliance is required since it isnt specific to bash.
       if [ -f $XDG_CONFIG_HOME/profile.sh ]; then
-        . $XDG_CONFIG_HOME/profile.sh
+        . $XDG_CONFIG_HOME/bash/profile.sh
       fi
     '';
   };
