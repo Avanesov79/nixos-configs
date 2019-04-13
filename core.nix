@@ -37,7 +37,7 @@
     # System utilities
     wget openssh curl rsync mtr pciutils udiskie jq
     # System user utilities
-    neovim nano ranger atool htop lynx git tree
+    neovim nano ranger atool htop lynx git tree home-manager
     # Scripting and programming
     perl python elixir erlang
     # Filesystem support
