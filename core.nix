@@ -10,6 +10,14 @@
 { config, pkgs, ... }:
 
 {
+  ## Automatically remove generations older than a specified amount
+  ##+ to keep the system clean and free of leftover cruft.
+  nix.gc = {
+    automatic = true;
+    dates = "04:00";
+    options = "--delete-older-than 7d";
+
+  };
   # Select internationalisation properties.
   i18n = {
    consoleFont = "Lat2-Terminus16";
