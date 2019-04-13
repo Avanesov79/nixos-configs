@@ -12,6 +12,6 @@
       ./core.nix                   ## Packages I want on every system.
       ./users.nix                  ## My system users
       ./machine.mac-desk.nix       ## Machine specific configuration
-      ./desktop.kde.nix             ## GUI desktop environment
+      ./desktop.kde.nix            ## GUI desktop environment
     ];
 }
