@@ -27,7 +27,7 @@
     # Archiving utilities
     bzip2 gzip lzip p7zip unzip lzma zip unzip unar
     # System utilities
-    wget openssh curl rsync mtr pciutils udiskie
+    wget openssh curl rsync mtr pciutils udiskie jq
     # System user utilities
     neovim nano ranger atool htop lynx git tree
     # Scripting and programming
